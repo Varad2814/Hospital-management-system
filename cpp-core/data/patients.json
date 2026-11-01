@@ -1,0 +1,62 @@
+[
+  {
+    "id":"P4790",
+    "name":"Rajkumar Rao",
+    "age":47,
+    "gender":"Male",
+    "contact":"669882",
+    "triageLevel":1,
+    "isDischarged":false,
+    "isInPatient":true,
+    "daysAdmitted":1,
+    "additionalCharges":0,
+    "admissionDate":"2026-11-01",
+    "dischargeDate":"",
+    "bill":3000
+  },
+  {
+    "id":"P003",
+    "name":"Maria Garcia",
+    "age":28,
+    "gender":"Female",
+    "contact":"555-1003",
+    "triageLevel":3,
+    "isDischarged":true,
+    "isInPatient":false,
+    "daysAdmitted":1,
+    "additionalCharges":0,
+    "admissionDate":"2026-11-01",
+    "dischargeDate":"",
+    "bill":400
+  },
+  {
+    "id":"P002",
+    "name":"Robert Smith",
+    "age":45,
+    "gender":"Male",
+    "contact":"555-1002",
+    "triageLevel":2,
+    "isDischarged":false,
+    "isInPatient":true,
+    "daysAdmitted":1,
+    "additionalCharges":0,
+    "admissionDate":"2026-11-01",
+    "dischargeDate":"",
+    "bill":2000
+  },
+  {
+    "id":"P001",
+    "name":"Alice Johnson",
+    "age":67,
+    "gender":"Female",
+    "contact":"555-1001",
+    "triageLevel":1,
+    "isDischarged":false,
+    "isInPatient":true,
+    "daysAdmitted":1,
+    "additionalCharges":0,
+    "admissionDate":"2026-11-01",
+    "dischargeDate":"",
+    "bill":3000
+  }
+]

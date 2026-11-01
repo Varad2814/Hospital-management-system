@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-beige-50 text-slate-700 font-sans antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-sage-600 hover:bg-sage-700 text-white font-medium px-4 py-2 rounded-lg
+           transition-all duration-200 shadow-sm hover:shadow-md active:scale-95;
+  }
+  .btn-secondary {
+    @apply bg-beige-100 hover:bg-beige-200 text-slate-700 font-medium px-4 py-2 rounded-lg
+           transition-all duration-200 border border-beige-300;
+  }
+  .btn-danger {
+    @apply bg-red-100 hover:bg-red-200 text-red-700 font-medium px-4 py-2 rounded-lg
+           transition-all duration-200 border border-red-200;
+  }
+  .card {
+    @apply bg-white rounded-2xl shadow-sm border border-beige-200 p-6;
+  }
+  .input-field {
+    @apply w-full bg-beige-50 border border-beige-300 rounded-lg px-3 py-2 text-slate-700
+           focus:outline-none focus:ring-2 focus:ring-sage-500 focus:border-transparent
+           placeholder:text-slate-400 transition-all duration-200;
+  }
+  .label {
+    @apply block text-sm font-medium text-slate-600 mb-1;
+  }
+  .badge-critical {
+    @apply inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-semibold
+           bg-red-100 text-red-700 border border-red-200;
+  }
+  .badge-urgent {
+    @apply inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-semibold
+           bg-amber-100 text-amber-700 border border-amber-200;
+  }
+  .badge-minor {
+    @apply inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-semibold
+           bg-emerald-100 text-emerald-700 border border-emerald-200;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #F7F6F2; }
+::-webkit-scrollbar-thumb { background: #c9c5b8; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #b0ab9d; }
+
+/* Smooth fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in { animation: fadeIn 0.25s ease-out; }
+
+/* Pulse animation for emergency indicators */
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.6; }
+}
+.animate-pulse-soft { animation: pulse-soft 2s infinite; }

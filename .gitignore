@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+*/node_modules/
+package-lock.json
+
+# Production builds
+dist/
+build/
+cpp-core/build/
+
+# Compiled C++ Object files & logs
+*.o
+*.obj
+*.log
+!cpp-core/data/activity.log
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local

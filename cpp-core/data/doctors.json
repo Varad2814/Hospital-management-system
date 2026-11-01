@@ -1,0 +1,50 @@
+[
+  {
+    "id":"D001",
+    "name":"Dr. Sarah Chen",
+    "age":42,
+    "gender":"Female",
+    "contact":"555-0101",
+    "specialization":"Cardiology",
+    "department":"Cardiology",
+    "isAvailable":true,
+    "consultationFee":750,
+    "patientsHandled":0
+  },
+  {
+    "id":"D002",
+    "name":"Dr. James Patel",
+    "age":38,
+    "gender":"Male",
+    "contact":"555-0102",
+    "specialization":"Emergency Medicine",
+    "department":"Emergency",
+    "isAvailable":true,
+    "consultationFee":600,
+    "patientsHandled":0
+  },
+  {
+    "id":"D003",
+    "name":"Dr. Emily Torres",
+    "age":35,
+    "gender":"Female",
+    "contact":"555-0103",
+    "specialization":"Neurology",
+    "department":"Neurology",
+    "isAvailable":true,
+    "consultationFee":800,
+    "patientsHandled":0
+  },
+  {
+    "id":"D004",
+    "name":"Dr. Michael Kim",
+    "age":45,
+    "gender":"Male",
+    "contact":"555-0104",
+    "specialization":"Orthopedics",
+    "department":"Orthopedics",
+    "isAvailable":false,
+    "consultationFee":700,
+    "patientsHandled":0
+  }
+]
